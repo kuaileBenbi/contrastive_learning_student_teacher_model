@@ -4,7 +4,7 @@
 
 蒸馏关键模型发展历史线：
 ｜时间｜代表工作 ｜主要贡献｜
-｜---｜---｜---｜
+|---|---:|---:|
 ｜2006｜Model Compression ｜ 用集成模型的输出训练一个紧凑模型，是现代知识蒸馏的重要前身｜
 ｜2015 ｜ Knowledge Distillation（Hinton）｜ 系统推广 Teacher-Student 知识蒸馏，利用软标签传递知识｜
 ｜2017 ｜	Mean Teacher	｜ 使用 Student 参数的 EMA 构造 Teacher，用于半监督学习｜
@@ -23,7 +23,7 @@
 
 对比学习关键模型：
 ｜论文	｜ 年份／会议 ｜主要功效｜
-｜---｜---｜---｜
+|---|---:|---:|
 ｜SimCLR — A Simple Framework for Contrastive Learning of Visual Representations	｜ ICML 2020	｜ 如何把研究问题落到数据增强、投影头和训练策略，再用消融支撑贡献。适合学习摘要中“方法发现—定量结果”的组织。｜
 ｜BYOL — Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning	｜ NeurIPS 2020｜	在线网络预测目标网络的表征，目标网络通过移动平均更新。重点学习如何用简洁语言交代学习目标和两个分支的关系。｜
 ｜DINO — Emerging Properties in Self-Supervised Vision Transformers	｜ ICCV 2021	｜如何围绕“自监督表征呈现哪些性质”组织论文，并用分割相关特征、近邻分类等证据说明表征能力。尤其值得读摘要和引言。｜
